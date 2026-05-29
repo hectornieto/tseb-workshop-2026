@@ -1,8 +1,8 @@
 # Workshop on pyTSEB modelling framework
-Digital *Jupyter Book* collection developed for the **Workshop on pyTSEB and py3SEB modelling frameworks**.
+Digital *Jupyter Book* collection developed for the **Workshop on pyTSEB modelling frameworks**.
 
 ## Installation
-You can use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hectornieto/curso-aet/HEAD) for runing the notebooks in the cloud
+You can use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hectornieto/tseb-workshop-2026/HEAD) for runing the notebooks in the cloud
 
 Optionally you could run the notebooks locally. To do so, you should have these programs installed:
 

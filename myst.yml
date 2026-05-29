@@ -1,8 +1,8 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: Surface energy balance models for Evapotranspiration retrieval - TSEB & 3SEB models
-  description: Theretical framework and hands-on practice on TSEB & 3SEB energy balance models for evapotranspiration retrieval using thermal remote sensing data.
+  title: International Workshop Two Source Thermal Remote Sensing For the Management of agricultural systems
+  description: Application of publicly available Python version PyTSEB using formulations in GitHub
   keywords:
       - MyST Markdown
       - pyTSEB
@@ -29,6 +29,10 @@ project:
           - Instituto de Ciencias Agrarias
           - CSIC
         orcid: 0000-0003-0815-842X
+       - name: Radoslaw Guzinski
+         affiliations:
+           - DHI
+         orcid: 0000-0003-0044-6806
   open_access: true
   license:
     content: CC-BY-4.0
@@ -44,13 +48,13 @@ project:
         
   
   Options:
-    logo: ./input/figures/tseb.png
+    logo: ./input/figures/logo.png
 
-  github: https://github.com/hectornieto/curso-aet
+  github: https://github.com/hectornieto/tseb-workshop-2026
   jupyter:
     execute: true
     binder:
-      repo: https://github.com/hectornieto/curso-aet
+      repo: https://github.com/hectornieto/tseb-workshop-2026
   settings:
     output_matplotlib_strings: remove
     output_stderr: remove-warn 
@@ -58,9 +62,9 @@ project:
   exports:
     - format: typst
       template: plain_typst_book 
-      output: curso-aet-TSEB_3SEB.pdf
-      cover: ./input/figures/logo-AET2026.webp
-      logo: ./input/figures/logo-AET2026.webp
+      output: tseb-workshop-2026.pdf
+      cover: ./input/figures/logo.png
+      logo: ./input/figures/logo.png
       logo_width: 20
       Logoposition: right
 
@@ -78,10 +82,10 @@ project:
    - bibliography.bib
 site:
   template: book-theme
-  title: Surface energy balance models for Evapotranspiration retrieval - TSEB & 3SEB models
+  title: International Workshop Two Source Thermal Remote Sensing For the Management of agricultural systems
   options:
-    logo_text: TSEB & 3SEB
-    logo: ./input/figures/logo-AET2026.webp
+    logo_text: TSEB & Sen-ET
+    logo: ./input/figures/logo.png
   nav: []
   actions:
     - title: Learn More

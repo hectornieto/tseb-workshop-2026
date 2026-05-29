@@ -1,8 +1,8 @@
 ---
-title: Surface energy balance models for Evapotranspiration retrieval - TSEB & 3SEB models
+title: International Workshop Two Source Thermal Remote Sensing For the Management of agricultural systems
 subject: Tutorial
-subtitle: Theoretical framework and hands-on practice on TSEB & 3SEB energy balance models for evapotranspiration retrieval using thermal remote sensing data.
-short_title: TSEB & 3SEB
+subtitle: Application of publicly available Python version PyTSEB using formulations in GitHub
+short_title: TSEB & Sen-ET
 authors:
   - name: Héctor Nieto
     affiliations:
@@ -20,6 +20,11 @@ authors:
       - Insituto de Ciencias Agrarias
       - CSIC
     orcid: 0000-0001-7199-2885
+  - name: Radoslaw Guzinski
+    affiliations:
+      - DHI
+    orcid: 0000-0003-0044-6806
+
 license: CC-BY-SA-4.0
 keywords: myst, markdown, open-science, tseb
 ---
@@ -31,7 +36,7 @@ This repository contains the online material needed to run the digital notebooks
 # Local Installation
 In case you want to install and run the notebook locally in your computer:
 
-:::{tip} Prerequisites - Install Python and QGIS
+:::{tip} Prerequisites - Install Python and Git
 
 You should have these programs installed:
 * Python and/or [Anaconda](https://www.anaconda.com/download/success). 
@@ -40,14 +45,14 @@ You should have these programs installed:
 
 We need to install all the library requisites for this tutorial. 
 
-First navigate in a terminal to the `curso-aet` folder:
+First navigate in a terminal to the `tseb-workshop-2026` folder:
 
 (navigation)=
 :::::{tab-set}
 ::::{tab-item} Windows
 :sync: win
 1. Open the `Anaconda Prompt Terminal` 
-2. in the terminal navigate where to the `curso-aet` folder:
+2. in the terminal navigate where to the `tseb-workshop-2026` folder:
 ```{code} bash
 cd C:\Users\<user>\curso-aet
 ```
@@ -55,7 +60,7 @@ cd C:\Users\<user>\curso-aet
 ::::{tab-item} Linux
 :sync: linux
 1. Open a Terminal (e.g. by presing `CTRL+ALT+T`)
-2. in the terminal navigate where to the `curso-aet` folder:
+2. in the terminal navigate where to the `tseb-workshop-2026` folder:
 ```{code} bash
 cd /home/<user>/curso-aet
 ```
@@ -86,7 +91,7 @@ conda activate curso-aet
 ::::{tab-item} Windows
 :sync: win
 1. Open the `Anaconda Prompt Terminal` 
-2. in the terminal navigate where to the `curso-aet` folder:
+2. in the terminal navigate where to the `tseb-workshop-2026` folder:
 ```{code} bash
 cd C:\Users\<user>\curso-aet
 ```
@@ -98,7 +103,7 @@ run_workshop.bat
 ::::{tab-item} Linux
 :sync: linux
 1. Open a Terminal (e.g. by presing `CTRL+ALT+T`)
-2. in the terminal navigate where to the `curso-aet` folder:
+2. in the terminal navigate where to the `tseb-workshop-2026` folder:
 ```{code} bash
 cd /home/<user>/curso-aet
 ```
